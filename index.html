@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adithya Wppandla | AI, Robotics & Autonomous Systems</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#22c55e',
+              600: '#16a34a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0f172a] text-slate-200 antialiased font-sans selection:bg-emerald-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-[#0f172a]/80 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-mono text-lg font-bold text-emerald-400">&lt;AW /&gt;</a>
+      <div class="flex items-center space-x-6 text-sm font-medium">
+        <a href="#about" class="hover:text-emerald-400 transition">About</a>
+        <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+        <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+        <a href="#research" class="hover:text-emerald-400 transition">Interests</a>
+        <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-white transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-6 space-y-24 py-16">
+
+    <!-- Hero Section -->
+    <section class="space-y-6 pt-8">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Electronics & Telecommunication Undergrad (2023–2027)
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
+        Building intelligent systems across <br class="hidden sm:inline" />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">AI, Robotics & Hardware</span>.
+      </h1>
+      <p class="max-w-2xl text-slate-400 text-lg leading-relaxed">
+        I am Adithya Wppandla, an engineering student at Dayananda Sagar College of Engineering, Bengaluru. I specialize in merging Machine Learning, Computer Vision, and Generative AI with autonomous UAVs and embedded hardware.
+      </p>
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="https://github.com/adithya6002n" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition text-sm">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/adithya-wppandla-820605243" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition text-sm">
+          <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+        </a>
+        <a href="mailto:Adithyanani2006@gmail.com" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white font-medium transition text-sm">
+          <i data-lucide="mail" class="w-4 h-4"></i> Get in Touch
+        </a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="space-y-8">
+      <div class="flex items-baseline justify-between border-b border-slate-800 pb-4">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <i data-lucide="folder-git-2" class="text-emerald-400 w-6 h-6"></i> Featured Projects
+        </h2>
+        <span class="text-xs font-mono text-slate-500">Autonomous • Vision • IoT</span>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Project 1 -->
+        <div class="bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 rounded-xl p-5 flex flex-col justify-between transition hover:-translate-y-1">
+          <div class="space-y-3">
+            <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">AI & Agents</span>
+            <h3 class="text-lg font-bold text-white">Namma Route Agent AI</h3>
+            <p class="text-sm text-slate-400">Intelligent route assistance project focused on conversational agent navigation and context-aware transit interactions.</p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Python</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">GenAI</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Routing</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 rounded-xl p-5 flex flex-col justify-between transition hover:-translate-y-1">
+          <div class="space-y-3">
+            <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">Autonomous UAVs</span>
+            <h3 class="text-lg font-bold text-white">VISTRA: Accident Detection & Drone Response</h3>
+            <p class="text-sm text-slate-400">AI-driven emergency system combining live video/audio incident analysis with automated UAV emergency dispatch.</p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Autonomous UAV</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Computer Vision</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">MAVLink</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 rounded-xl p-5 flex flex-col justify-between transition hover:-translate-y-1">
+          <div class="space-y-3">
+            <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">Computer Vision</span>
+            <h3 class="text-lg font-bold text-white">Real-Time Emotion Detection</h3>
+            <p class="text-sm text-slate-400">Live facial emotion recognition system processing webcam video feeds using OpenCV and real-time inference models.</p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">OpenCV</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Python</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">ML</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 rounded-xl p-5 flex flex-col justify-between transition hover:-translate-y-1">
+          <div class="space-y-3">
+            <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">Embedded IoT</span>
+            <h3 class="text-lg font-bold text-white">Smart Home System with ESP32</h3>
+            <p class="text-sm text-slate-400">Hardware-level home automation prototype leveraging an ESP32 microcontroller and soil moisture sensors for automated actions.</p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">ESP32</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Sensors</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">C++ / Arduino</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 rounded-xl p-5 flex flex-col justify-between transition hover:-translate-y-1">
+          <div class="space-y-3">
+            <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">AgriTech AI</span>
+            <h3 class="text-lg font-bold text-white">Crop & Fertilizer Chatbot</h3>
+            <p class="text-sm text-slate-400">Conversational AI assisting farmers with soil-specific crop rotation, organic fertilizer planning, and seasonal choices.</p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Python</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">LLMs</span>
+            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Decision Trees</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills & Stack Section -->
+    <section id="skills" class="space-y-8">
+      <div class="border-b border-slate-800 pb-4">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <i data-lucide="cpu" class="text-emerald-400 w-6 h-6"></i> Technical Stack
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-slate-900/40 p-5 rounded-xl border border-slate-800 space-y-3">
+          <h3 class="font-semibold text-slate-200 flex items-center gap-2"><i data-lucide="code" class="w-4 h-4 text-emerald-400"></i> Languages</h3>
+          <p class="text-sm text-slate-400">Python, C, C++</p>
+        </div>
+        <div class="bg-slate-900/40 p-5 rounded-xl border border-slate-800 space-y-3">
+          <h3 class="font-semibold text-slate-200 flex items-center gap-2"><i data-lucide="bot" class="w-4 h-4 text-emerald-400"></i> AI & ML</h3>
+          <p class="text-sm text-slate-400">Generative AI, LLMs, Computer Vision, OpenCV, NumPy, Pandas</p>
+        </div>
+        <div class="bg-slate-900/40 p-5 rounded-xl border border-slate-800 space-y-3">
+          <h3 class="font-semibold text-slate-200 flex items-center gap-2"><i data-lucide="navigation" class="w-4 h-4 text-emerald-400"></i> UAV & Autonomy</h3>
+          <p class="text-sm text-slate-400">PX4, ArduPilot, MAVLink, QGroundControl, Autonomous Navigation</p>
+        </div>
+        <div class="bg-slate-900/40 p-5 rounded-xl border border-slate-800 space-y-3">
+          <h3 class="font-semibold text-slate-200 flex items-center gap-2"><i data-lucide="microchip" class="w-4 h-4 text-emerald-400"></i> Embedded & Hardware</h3>
+          <p class="text-sm text-slate-400">ESP32, Raspberry Pi, Arduino, Microcontrollers, IoT Sensors</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests & Hackathons -->
+    <section id="research" class="grid md:grid-cols-2 gap-8">
+      <div class="bg-slate-900/40 p-6 rounded-xl border border-slate-800 space-y-4">
+        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+          <i data-lucide="sparkles" class="w-5 h-5 text-emerald-400"></i> Research Interests
+        </h3>
+        <p class="text-sm text-slate-400">Focus areas I continuously study and build prototypes around:</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Multi-Agent Systems</span>
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Autonomous UAVs</span>
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Defence AI</span>
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Intelligent IoT</span>
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Large Language Models</span>
+          <span class="px-3 py-1 text-xs bg-slate-800 text-emerald-300 rounded-full border border-emerald-500/20">Computer Vision</span>
+        </div>
+      </div>
+
+      <div class="bg-slate-900/40 p-6 rounded-xl border border-slate-800 space-y-4">
+        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+          <i data-lucide="trophy" class="w-5 h-5 text-emerald-400"></i> Experience & Hackathons
+        </h3>
+        <ul class="space-y-3 text-sm text-slate-400 list-disc list-inside">
+          <li>Participated in hackathons and developer challenges hosted by <span class="text-white font-medium">Microsoft</span> and <span class="text-white font-medium">AWS</span>.</li>
+          <li>Built and pitched multidisciplinary prototypes spanning AI, robotics, and hardware automation.</li>
+          <li>Actively developing research-oriented solutions in autonomous systems and multi-agent coordination.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="text-center space-y-6 pt-12 border-t border-slate-800">
+      <h2 class="text-3xl font-bold text-white">Let's Connect</h2>
+      <p class="text-slate-400 max-w-md mx-auto text-sm">
+        Whether you want to discuss drone autonomy, collaborative multi-agent systems, or have an open role, my inbox is open.
+      </p>
+      <div class="flex justify-center items-center gap-4 text-sm font-medium">
+        <a href="mailto:Adithyanani2006@gmail.com" class="text-emerald-400 hover:underline">Adithyanani2006@gmail.com</a>
+        <span class="text-slate-600">•</span>
+        <span class="text-slate-400">+91 6300980577</span>
+      </div>
+      <p class="text-xs text-slate-600 pt-6">© 2026 Adithya Wppandla. Built with Tailwind CSS.</p>
+    </section>
+
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
